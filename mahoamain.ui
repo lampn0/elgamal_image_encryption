@@ -2,26 +2,37 @@
 <ui version="4.0">
  <class>ELGAMAL</class>
  <widget class="QMainWindow" name="ELGAMAL">
+<<<<<<< HEAD
   <property name="enabled">
    <bool>false</bool>
   </property>
+=======
+>>>>>>> a715a7a04ef0f4758072a4ce227ea95d7b08d250
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
+<<<<<<< HEAD
     <width>869</width>
     <height>563</height>
+=======
+    <width>681</width>
+    <height>521</height>
+>>>>>>> a715a7a04ef0f4758072a4ce227ea95d7b08d250
    </rect>
   </property>
   <property name="windowTitle">
    <string>ELGAMAL</string>
   </property>
+<<<<<<< HEAD
   <property name="autoFillBackground">
    <bool>false</bool>
   </property>
   <property name="styleSheet">
    <string notr="true">background-image: url(:/image/New folder/1.jpg);</string>
   </property>
+=======
+>>>>>>> a715a7a04ef0f4758072a4ce227ea95d7b08d250
   <widget class="QWidget" name="centralwidget">
    <widget class="QPushButton" name="khoangaunhien">
     <property name="geometry">
@@ -38,9 +49,12 @@
       <pointsize>10</pointsize>
      </font>
     </property>
+<<<<<<< HEAD
     <property name="styleSheet">
      <string notr="true">background-image: url(:/newPrefix/C:/Users/huyna/Dropbox/PC/Downloads/Hinh-Nen-Trang-10.jpg);</string>
     </property>
+=======
+>>>>>>> a715a7a04ef0f4758072a4ce227ea95d7b08d250
     <property name="text">
      <string>Chọn khóa ngẫu nhiên</string>
     </property>
@@ -60,9 +74,12 @@
       <pointsize>10</pointsize>
      </font>
     </property>
+<<<<<<< HEAD
     <property name="styleSheet">
      <string notr="true">background-image: url(:/newPrefix/C:/Users/huyna/Dropbox/PC/Downloads/Hinh-Nen-Trang-10.jpg);</string>
     </property>
+=======
+>>>>>>> a715a7a04ef0f4758072a4ce227ea95d7b08d250
     <property name="text">
      <string>Tùy chọn khóa</string>
     </property>
@@ -82,9 +99,12 @@
       <pointsize>10</pointsize>
      </font>
     </property>
+<<<<<<< HEAD
     <property name="styleSheet">
      <string notr="true">background-image: url(:/newPrefix/C:/Users/huyna/Dropbox/PC/Downloads/Hinh-Nen-Trang-10.jpg);</string>
     </property>
+=======
+>>>>>>> a715a7a04ef0f4758072a4ce227ea95d7b08d250
     <property name="text">
      <string>Làm mới khóa</string>
     </property>
@@ -104,9 +124,12 @@
       <pointsize>10</pointsize>
      </font>
     </property>
+<<<<<<< HEAD
     <property name="styleSheet">
      <string notr="true">background-image: url(:/newPrefix/C:/Users/huyna/Dropbox/PC/Downloads/Hinh-Nen-Trang-10.jpg);</string>
     </property>
+=======
+>>>>>>> a715a7a04ef0f4758072a4ce227ea95d7b08d250
     <property name="text">
      <string>Làm mới trang</string>
     </property>
@@ -114,10 +137,17 @@
    <widget class="QLabel" name="label_16">
     <property name="geometry">
      <rect>
+<<<<<<< HEAD
       <x>200</x>
       <y>10</y>
       <width>91</width>
       <height>31</height>
+=======
+      <x>150</x>
+      <y>10</y>
+      <width>61</width>
+      <height>41</height>
+>>>>>>> a715a7a04ef0f4758072a4ce227ea95d7b08d250
      </rect>
     </property>
     <property name="font">
@@ -126,9 +156,12 @@
       <pointsize>11</pointsize>
      </font>
     </property>
+<<<<<<< HEAD
     <property name="styleSheet">
      <string notr="true">background-image: url(:/newPrefix/C:/Users/huyna/Dropbox/PC/Downloads/Hinh-Nen-Trang-10.jpg);</string>
     </property>
+=======
+>>>>>>> a715a7a04ef0f4758072a4ce227ea95d7b08d250
     <property name="text">
      <string>Chọn ảnh:</string>
     </property>
@@ -136,22 +169,33 @@
    <widget class="QTextBrowser" name="textBrowser">
     <property name="geometry">
      <rect>
+<<<<<<< HEAD
       <x>290</x>
+=======
+      <x>220</x>
+>>>>>>> a715a7a04ef0f4758072a4ce227ea95d7b08d250
       <y>10</y>
       <width>371</width>
       <height>31</height>
      </rect>
     </property>
+<<<<<<< HEAD
     <property name="styleSheet">
      <string notr="true">border-color: rgb(255, 255, 255);
 background-image: url(:/newPrefix/C:/Users/huyna/Dropbox/PC/Downloads/Hinh-Nen-Trang-10.jpg);
 background-color: rgb(255, 255, 255);</string>
     </property>
+=======
+>>>>>>> a715a7a04ef0f4758072a4ce227ea95d7b08d250
    </widget>
    <widget class="QPushButton" name="submit">
     <property name="geometry">
      <rect>
+<<<<<<< HEAD
       <x>660</x>
+=======
+      <x>600</x>
+>>>>>>> a715a7a04ef0f4758072a4ce227ea95d7b08d250
       <y>10</y>
       <width>71</width>
       <height>31</height>
@@ -163,9 +207,12 @@ background-color: rgb(255, 255, 255);</string>
       <pointsize>11</pointsize>
      </font>
     </property>
+<<<<<<< HEAD
     <property name="styleSheet">
      <string notr="true">background-image: url(:/newPrefix/C:/Users/huyna/Dropbox/PC/Downloads/Hinh-Nen-Trang-10.jpg);</string>
     </property>
+=======
+>>>>>>> a715a7a04ef0f4758072a4ce227ea95d7b08d250
     <property name="text">
      <string>Submit</string>
     </property>
@@ -173,22 +220,36 @@ background-color: rgb(255, 255, 255);</string>
    <widget class="QGraphicsView" name="anhgoc">
     <property name="geometry">
      <rect>
+<<<<<<< HEAD
       <x>360</x>
       <y>40</y>
+=======
+      <x>290</x>
+      <y>50</y>
+>>>>>>> a715a7a04ef0f4758072a4ce227ea95d7b08d250
       <width>251</width>
       <height>201</height>
      </rect>
     </property>
+<<<<<<< HEAD
     <property name="styleSheet">
      <string notr="true">background-image: url(:/newPrefix/C:/Users/huyna/Dropbox/PC/Downloads/Hinh-Nen-Trang-10.jpg);</string>
     </property>
+=======
+>>>>>>> a715a7a04ef0f4758072a4ce227ea95d7b08d250
    </widget>
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
+<<<<<<< HEAD
       <x>10</x>
       <y>180</y>
       <width>131</width>
+=======
+      <x>30</x>
+      <y>180</y>
+      <width>91</width>
+>>>>>>> a715a7a04ef0f4758072a4ce227ea95d7b08d250
       <height>21</height>
      </rect>
     </property>
@@ -198,9 +259,12 @@ background-color: rgb(255, 255, 255);</string>
       <pointsize>10</pointsize>
      </font>
     </property>
+<<<<<<< HEAD
     <property name="styleSheet">
      <string notr="true">background-image: url(:/newPrefix/C:/Users/huyna/Dropbox/PC/Downloads/Hinh-Nen-Trang-10.jpg);</string>
     </property>
+=======
+>>>>>>> a715a7a04ef0f4758072a4ce227ea95d7b08d250
     <property name="text">
      <string>Khóa công khai</string>
     </property>
@@ -240,9 +304,12 @@ background-color: rgb(255, 255, 255);</string>
       <height>31</height>
      </rect>
     </property>
+<<<<<<< HEAD
     <property name="styleSheet">
      <string notr="true">background-image: url(:/newPrefix/C:/Users/huyna/Dropbox/PC/Downloads/Hinh-Nen-Trang-10.jpg);</string>
     </property>
+=======
+>>>>>>> a715a7a04ef0f4758072a4ce227ea95d7b08d250
    </widget>
    <widget class="QTextEdit" name="a">
     <property name="geometry">
@@ -253,9 +320,12 @@ background-color: rgb(255, 255, 255);</string>
       <height>31</height>
      </rect>
     </property>
+<<<<<<< HEAD
     <property name="styleSheet">
      <string notr="true">background-image: url(:/newPrefix/C:/Users/huyna/Dropbox/PC/Downloads/Hinh-Nen-Trang-10.jpg);</string>
     </property>
+=======
+>>>>>>> a715a7a04ef0f4758072a4ce227ea95d7b08d250
    </widget>
    <widget class="QTextEdit" name="d">
     <property name="geometry">
@@ -266,9 +336,12 @@ background-color: rgb(255, 255, 255);</string>
       <height>31</height>
      </rect>
     </property>
+<<<<<<< HEAD
     <property name="styleSheet">
      <string notr="true">background-image: url(:/newPrefix/C:/Users/huyna/Dropbox/PC/Downloads/Hinh-Nen-Trang-10.jpg);</string>
     </property>
+=======
+>>>>>>> a715a7a04ef0f4758072a4ce227ea95d7b08d250
    </widget>
    <widget class="QLabel" name="label_4">
     <property name="geometry">
@@ -286,10 +359,17 @@ background-color: rgb(255, 255, 255);</string>
    <widget class="QLabel" name="label_5">
     <property name="geometry">
      <rect>
+<<<<<<< HEAD
       <x>30</x>
       <y>330</y>
       <width>111</width>
       <height>20</height>
+=======
+      <x>50</x>
+      <y>330</y>
+      <width>71</width>
+      <height>16</height>
+>>>>>>> a715a7a04ef0f4758072a4ce227ea95d7b08d250
      </rect>
     </property>
     <property name="font">
@@ -298,9 +378,12 @@ background-color: rgb(255, 255, 255);</string>
       <pointsize>10</pointsize>
      </font>
     </property>
+<<<<<<< HEAD
     <property name="styleSheet">
      <string notr="true">background-image: url(:/newPrefix/C:/Users/huyna/Dropbox/PC/Downloads/Hinh-Nen-Trang-10.jpg);</string>
     </property>
+=======
+>>>>>>> a715a7a04ef0f4758072a4ce227ea95d7b08d250
     <property name="text">
      <string>Khóa bí mật</string>
     </property>
@@ -314,9 +397,12 @@ background-color: rgb(255, 255, 255);</string>
       <height>31</height>
      </rect>
     </property>
+<<<<<<< HEAD
     <property name="styleSheet">
      <string notr="true">background-image: url(:/newPrefix/C:/Users/huyna/Dropbox/PC/Downloads/Hinh-Nen-Trang-10.jpg);</string>
     </property>
+=======
+>>>>>>> a715a7a04ef0f4758072a4ce227ea95d7b08d250
    </widget>
    <widget class="QLabel" name="label_6">
     <property name="geometry">
@@ -340,10 +426,13 @@ background-color: rgb(255, 255, 255);</string>
       <height>31</height>
      </rect>
     </property>
+<<<<<<< HEAD
     <property name="styleSheet">
      <string notr="true">background-image: url(:/newPrefix/C:/Users/huyna/Dropbox/PC/Downloads/Hinh-Nen-Trang-10.jpg);
 </string>
     </property>
+=======
+>>>>>>> a715a7a04ef0f4758072a4ce227ea95d7b08d250
    </widget>
    <widget class="QLabel" name="label_7">
     <property name="geometry">
@@ -360,9 +449,12 @@ background-color: rgb(255, 255, 255);</string>
       <pointsize>10</pointsize>
      </font>
     </property>
+<<<<<<< HEAD
     <property name="styleSheet">
      <string notr="true">background-image: url(:/newPrefix/C:/Users/huyna/Dropbox/PC/Downloads/Hinh-Nen-Trang-10.jpg);</string>
     </property>
+=======
+>>>>>>> a715a7a04ef0f4758072a4ce227ea95d7b08d250
     <property name="text">
      <string>Số k ngẫu nhiên:</string>
     </property>
@@ -376,9 +468,12 @@ background-color: rgb(255, 255, 255);</string>
       <height>31</height>
      </rect>
     </property>
+<<<<<<< HEAD
     <property name="styleSheet">
      <string notr="true">background-image: url(:/newPrefix/C:/Users/huyna/Dropbox/PC/Downloads/Hinh-Nen-Trang-10.jpg);</string>
     </property>
+=======
+>>>>>>> a715a7a04ef0f4758072a4ce227ea95d7b08d250
    </widget>
    <widget class="QLabel" name="label_8">
     <property name="geometry">
@@ -467,9 +562,15 @@ background-color: rgb(255, 255, 255);</string>
    <widget class="QLabel" name="label_13">
     <property name="geometry">
      <rect>
+<<<<<<< HEAD
       <x>230</x>
       <y>80</y>
       <width>71</width>
+=======
+      <x>220</x>
+      <y>40</y>
+      <width>61</width>
+>>>>>>> a715a7a04ef0f4758072a4ce227ea95d7b08d250
       <height>41</height>
      </rect>
     </property>
@@ -479,9 +580,12 @@ background-color: rgb(255, 255, 255);</string>
       <pointsize>12</pointsize>
      </font>
     </property>
+<<<<<<< HEAD
     <property name="styleSheet">
      <string notr="true">background-image: url(:/newPrefix/C:/Users/huyna/Dropbox/PC/Downloads/Hinh-Nen-Trang-10.jpg);</string>
     </property>
+=======
+>>>>>>> a715a7a04ef0f4758072a4ce227ea95d7b08d250
     <property name="text">
      <string>Ảnh gốc:</string>
     </property>
@@ -527,9 +631,13 @@ background-color: rgb(255, 255, 255);</string>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
+<<<<<<< HEAD
  <resources>
   <include location="background.qrc"/>
   <include location="image.qrc"/>
  </resources>
+=======
+ <resources/>
+>>>>>>> a715a7a04ef0f4758072a4ce227ea95d7b08d250
  <connections/>
 </ui>

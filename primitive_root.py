@@ -14,7 +14,7 @@ def gcd(a, b):
 
 
 # For find primitive root i.e. random number
-def find_primitive_root1(q):
+def find_primitive_root(q):
     l1: list[int] = []
     l2: list[int] = []
     for i in range(1, q):
@@ -39,4 +39,4 @@ def find_primitive_root1(q):
     print("Các phần tử nguyên thủy của ", q, "là: ", l2)
 
 
-find_primitive_root1(19)
+find_primitive_root(14)
