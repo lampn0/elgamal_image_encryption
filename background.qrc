@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>C:/Users/huyna/Dropbox/PC/Downloads/Hinh-Nen-Trang-10.jpg</file>
+    <file>../../Ảnh/depositphotos_14941915-stock-photo-firewall-lock-on-mainboard-concept.jpg</file>
+  </qresource>
+  <qresource prefix="123">
+    <file>../../Ảnh/istockphoto-1289956604-170667a.jpg</file>
+  </qresource>
+</RCC>
