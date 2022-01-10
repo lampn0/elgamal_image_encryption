@@ -25,7 +25,7 @@ def gcd(a, b):
 # For find primitive root i.e. random number
 def find_primitive_root(q):
     l1: list[int] = []
-    l2: list[int] = []
+    # l2: list[int] = []
     for i in range(1, q):
         if gcd(q, i) == 1:
             l1.append(i)
@@ -33,19 +33,20 @@ def find_primitive_root(q):
     # print("Các số nguyên tố với ", q, "là: ", l1)
     # print("Số các lớp đồng dư là: ", len(l1))
 
-    i = 0
+    i = 1000
     j = 1
     while i < len(l1):
         while j <= len(l1):
             if ((l1[i] ** j) % q == 1) & (j < len(l1)):
                 break
             elif ((l1[i] ** j) % q == 1) & (j == len(l1)):
-                l2.append(l1[i])
+                # l2.append(l1[i])
+                return l1[i]
             j = j + 1
         j = 1
         i = i + 1
     # print("Các phần tử nguyên thủy của ", q, "là: ", l2)
-    return l2
+    # return l2
 
 
 # find prime
@@ -71,17 +72,18 @@ img = cv.imread('8-bit-256-x-256-Color-Lena-Image.png')
 # p = int(p)
 flag = 0
 while flag == 0:
-    p = random.randint(1000, 2000)
+    p = random.randint(5000, 7000)
     flag = check_prime_number(p)
 
 print("p = ", p)
 
-primitive_list = find_primitive_root(p)
-print(primitive_list)
-print("len = ", len(primitive_list))
+# primitive_list = find_primitive_root(p)
+# print(primitive_list)
+# print("len = ", len(primitive_list))
 
-i = random.randint(1, len(primitive_list) - 1)
-e1 = primitive_list[i]
+# i = random.randint(1, len(primitive_list) - 1)
+# e1 = primitive_list[i]
+e1 = find_primitive_root(p)
 print("e1 = ", e1)
 
 d = random.randint(1, p - 1)
@@ -109,7 +111,7 @@ for i in range(256):
         RGB[2] = img_bin2
         encrypt[i].append(RGB)
 encrypt = numpy.array(encrypt)
-print(encrypt.shape)
+# print(encrypt.shape)
 
 # Decryption
 decrypt = [[] for x in range(0, 256)]
@@ -128,7 +130,7 @@ for i in range(0, 256):
         tmp.append(img_bin0)
         decrypt[i].append(tmp)
 decrypt = numpy.array(decrypt)
-print(decrypt)
+# print(decrypt)
 
 # plt.savefig("a.png",encrypt ,dpi='figure')
 # plt.subplot(121), plt.imshow(encrypt), plt.title('Encryption')
