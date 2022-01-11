@@ -39,8 +39,7 @@ def find_primitive_root(q):
             j = j + 1
         j = 1
         i = i + 1
-    # print("Các phần tử nguyên thủy của ", q, "là: ", l2)
-    # return l2
+
 
 
 # find prime
@@ -60,8 +59,6 @@ def check_prime_number(n):
 
 
 def load_image(link):
-    # Load image
-    # img = cv.imread('8-bit-256-x-256-Color-Lena-Image.png')
     img = cv.imread(link)
     return img
 

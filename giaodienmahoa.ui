@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1100</width>
+    <width>1162</width>
     <height>860</height>
    </rect>
   </property>
@@ -442,7 +442,7 @@ background-image: url(:/image/C:/Users/huyna/Dropbox/PC/Downloads/Hinh-Nen-Trang
 background-color: rgb(106, 106, 106);</string>
    </property>
    <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; color:#ffffff;&quot;&gt;Số ngẫu nhiên:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; color:#ffffff;&quot;&gt;Số ngẫu nhiên&lt;/span&gt;&lt;span style=&quot; font-size:14pt; color:#ffffff;&quot;&gt;:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
   <widget class="QWidget" name="verticalLayoutWidget">
