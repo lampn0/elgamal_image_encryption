@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1189</width>
-    <height>863</height>
+    <width>1100</width>
+    <height>860</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -31,30 +31,10 @@
   <property name="styleSheet">
    <string notr="true">background-image: url(:/image/back_ground_copy.jpg);</string>
   </property>
-  <widget class="QGraphicsView" name="anhgoc">
-   <property name="geometry">
-    <rect>
-     <x>610</x>
-     <y>150</y>
-     <width>256</width>
-     <height>256</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <family>Arial</family>
-     <weight>50</weight>
-     <bold>false</bold>
-    </font>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">background-image: url(:/newPrefix/C:/Users/huyna/Dropbox/PC/Downloads/Hinh-Nen-Trang-10.jpg);</string>
-   </property>
-  </widget>
   <widget class="QTextEdit" name="e2">
    <property name="geometry">
     <rect>
-     <x>100</x>
+     <x>120</x>
      <y>510</y>
      <width>120</width>
      <height>31</height>
@@ -63,6 +43,7 @@
    <property name="font">
     <font>
      <family>Arial</family>
+     <pointsize>10</pointsize>
      <weight>50</weight>
      <bold>false</bold>
     </font>
@@ -84,12 +65,16 @@ background-image: url(:/newPrefix/C:/Users/huyna/Dropbox/PC/Downloads/Hinh-Nen-T
    <property name="font">
     <font>
      <family>Arial</family>
+     <pointsize>8</pointsize>
      <weight>50</weight>
      <bold>false</bold>
     </font>
    </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0);</string>
+   </property>
    <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt; color:#ffffff;&quot;&gt;p:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt; color:#000000;&quot;&gt;p:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_5">
@@ -97,7 +82,7 @@ background-image: url(:/newPrefix/C:/Users/huyna/Dropbox/PC/Downloads/Hinh-Nen-T
     <rect>
      <x>60</x>
      <y>560</y>
-     <width>161</width>
+     <width>181</width>
      <height>31</height>
     </rect>
    </property>
@@ -114,7 +99,7 @@ background-image: url(:/newPrefix/C:/Users/huyna/Dropbox/PC/Downloads/Hinh-Nen-T
 background-color: rgb(112, 112, 112);</string>
    </property>
    <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; color:#ffffff;&quot;&gt;Khóa bí mật:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; color:#ffffff;&quot;&gt;Khóa bí mật:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_6">
@@ -134,7 +119,7 @@ background-color: rgb(112, 112, 112);</string>
     </font>
    </property>
    <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt; color:#ffffff;&quot;&gt;d:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt; color:#000000;&quot;&gt;d:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_4">
@@ -154,13 +139,13 @@ background-color: rgb(112, 112, 112);</string>
     </font>
    </property>
    <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt; color:#ffffff;&quot;&gt;e2:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt; color:#000000;&quot;&gt;e2:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
   <widget class="QTextEdit" name="d">
    <property name="geometry">
     <rect>
-     <x>100</x>
+     <x>120</x>
      <y>600</y>
      <width>120</width>
      <height>31</height>
@@ -169,6 +154,7 @@ background-color: rgb(112, 112, 112);</string>
    <property name="font">
     <font>
      <family>Arial</family>
+     <pointsize>10</pointsize>
      <weight>50</weight>
      <bold>false</bold>
     </font>
@@ -194,62 +180,16 @@ background-color: rgb(112, 112, 112);</string>
     </font>
    </property>
    <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt; color:#ffffff;&quot;&gt;e1:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-   </property>
-  </widget>
-  <widget class="QPlainTextEdit" name="banro">
-   <property name="geometry">
-    <rect>
-     <x>790</x>
-     <y>480</y>
-     <width>256</width>
-     <height>256</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <family>Arial</family>
-     <weight>50</weight>
-     <bold>false</bold>
-    </font>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">background-image: url(:/newPrefix/C:/Users/huyna/Dropbox/PC/Downloads/Hinh-Nen-Trang-10.jpg);</string>
-   </property>
-  </widget>
-  <widget class="QTextBrowser" name="textBrowser">
-   <property name="geometry">
-    <rect>
-     <x>160</x>
-     <y>340</y>
-     <width>201</width>
-     <height>31</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <family>Arial</family>
-     <weight>50</weight>
-     <bold>false</bold>
-    </font>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">border-color: rgb(255, 255, 255);
-background-image: url(:/newPrefix/C:/Users/huyna/Dropbox/PC/Downloads/Hinh-Nen-Trang-10.jpg);
-background-color: rgb(255, 255, 255);</string>
-   </property>
-   <property name="html">
-    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Arial'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt; color:#000000;&quot;&gt;e1:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
   <widget class="QTextEdit" name="r">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
    <property name="geometry">
     <rect>
-     <x>100</x>
+     <x>120</x>
      <y>690</y>
      <width>120</width>
      <height>31</height>
@@ -258,6 +198,7 @@ p, li { white-space: pre-wrap; }
    <property name="font">
     <font>
      <family>Arial</family>
+     <pointsize>10</pointsize>
      <weight>50</weight>
      <bold>false</bold>
     </font>
@@ -296,7 +237,7 @@ background-image: url(:/image/C:/Users/huyna/Dropbox/PC/Downloads/Hinh-Nen-Trang
   <widget class="QTextEdit" name="e1">
    <property name="geometry">
     <rect>
-     <x>100</x>
+     <x>120</x>
      <y>470</y>
      <width>120</width>
      <height>31</height>
@@ -305,6 +246,7 @@ background-image: url(:/image/C:/Users/huyna/Dropbox/PC/Downloads/Hinh-Nen-Trang
    <property name="font">
     <font>
      <family>Arial</family>
+     <pointsize>10</pointsize>
      <weight>50</weight>
      <bold>false</bold>
     </font>
@@ -317,7 +259,7 @@ background-image: url(:/image/C:/Users/huyna/Dropbox/PC/Downloads/Hinh-Nen-Trang
    <property name="geometry">
     <rect>
      <x>60</x>
-     <y>340</y>
+     <y>70</y>
      <width>91</width>
      <height>31</height>
     </rect>
@@ -342,30 +284,10 @@ background-image: url(:/image/C:/Users/huyna/Dropbox/PC/Downloads/Hinh-Nen-Trang
     <set>Qt::AlignCenter</set>
    </property>
   </widget>
-  <widget class="QPlainTextEdit" name="banmat">
-   <property name="geometry">
-    <rect>
-     <x>400</x>
-     <y>480</y>
-     <width>256</width>
-     <height>256</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <family>Arial</family>
-     <weight>50</weight>
-     <bold>false</bold>
-    </font>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">background-image: url(:/newPrefix/C:/Users/huyna/Dropbox/PC/Downloads/Hinh-Nen-Trang-10.jpg);</string>
-   </property>
-  </widget>
   <widget class="QTextEdit" name="p">
    <property name="geometry">
     <rect>
-     <x>100</x>
+     <x>120</x>
      <y>430</y>
      <width>120</width>
      <height>31</height>
@@ -374,6 +296,7 @@ background-image: url(:/image/C:/Users/huyna/Dropbox/PC/Downloads/Hinh-Nen-Trang
    <property name="font">
     <font>
      <family>Arial</family>
+     <pointsize>10</pointsize>
      <weight>50</weight>
      <bold>false</bold>
     </font>
@@ -424,7 +347,7 @@ background-image: url(:/image/C:/Users/huyna/Dropbox/PC/Downloads/Hinh-Nen-Trang
     </font>
    </property>
    <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt; color:#ffffff;&quot;&gt;r:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt; color:#000000;&quot;&gt;r:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
   <widget class="QLabel" name="label">
@@ -432,7 +355,7 @@ background-image: url(:/image/C:/Users/huyna/Dropbox/PC/Downloads/Hinh-Nen-Trang
     <rect>
      <x>60</x>
      <y>390</y>
-     <width>161</width>
+     <width>181</width>
      <height>31</height>
     </rect>
    </property>
@@ -502,7 +425,7 @@ background-image: url(:/image/C:/Users/huyna/Dropbox/PC/Downloads/Hinh-Nen-Trang
     <rect>
      <x>60</x>
      <y>650</y>
-     <width>161</width>
+     <width>181</width>
      <height>31</height>
     </rect>
    </property>
@@ -519,14 +442,14 @@ background-image: url(:/image/C:/Users/huyna/Dropbox/PC/Downloads/Hinh-Nen-Trang
 background-color: rgb(106, 106, 106);</string>
    </property>
    <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; color:#ffffff;&quot;&gt;Số ngẫu nhiên&lt;/span&gt;&lt;span style=&quot; font-size:14pt; color:#ffffff;&quot;&gt;:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; color:#ffffff;&quot;&gt;Số ngẫu nhiên:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
   <widget class="QWidget" name="verticalLayoutWidget">
    <property name="geometry">
     <rect>
      <x>50</x>
-     <y>130</y>
+     <y>150</y>
      <width>261</width>
      <height>191</height>
     </rect>
@@ -615,9 +538,118 @@ background-color: rgb(106, 106, 106);</string>
   <widget class="QPushButton" name="browser">
    <property name="geometry">
     <rect>
-     <x>370</x>
-     <y>340</y>
-     <width>91</width>
+     <x>880</x>
+     <y>70</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>10</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/newPrefix/C:/Users/huyna/Dropbox/PC/Downloads/Hinh-Nen-Trang-10.jpg);
+selection-background-color: rgb(0, 0, 255);</string>
+   </property>
+   <property name="text">
+    <string>Browser</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="anhgoc">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>170</y>
+     <width>256</width>
+     <height>256</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/newPrefix/C:/Users/huyna/Dropbox/PC/Downloads/Hinh-Nen-Trang-10.jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="anhmahoa">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>500</y>
+     <width>256</width>
+     <height>256</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/newPrefix/C:/Users/huyna/Dropbox/PC/Downloads/Hinh-Nen-Trang-10.jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="anhgiaima">
+   <property name="geometry">
+    <rect>
+     <x>790</x>
+     <y>480</y>
+     <width>256</width>
+     <height>256</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/newPrefix/C:/Users/huyna/Dropbox/PC/Downloads/Hinh-Nen-Trang-10.jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtLink">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>70</y>
+     <width>701</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/newPrefix/C:/Users/huyna/Dropbox/PC/Downloads/Hinh-Nen-Trang-10.jpg);</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>730</y>
+     <width>41</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt; color:#000000;&quot;&gt;c1:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="c1">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>730</y>
+     <width>120</width>
      <height>31</height>
     </rect>
    </property>
@@ -630,10 +662,8 @@ background-color: rgb(106, 106, 106);</string>
     </font>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-image: url(:/newPrefix/C:/Users/huyna/Dropbox/PC/Downloads/Hinh-Nen-Trang-10.jpg);</string>
-   </property>
-   <property name="text">
-    <string>Browser</string>
+    <string notr="true">background-image: url(:/newPrefix/C:/Users/huyna/Dropbox/PC/Downloads/Hinh-Nen-Trang-10.jpg);
+</string>
    </property>
   </widget>
  </widget>

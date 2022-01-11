@@ -64,81 +64,83 @@ def check_prime_number(n):
             break
     return flag
 
-
-# Load image
-img = cv.imread('8-bit-256-x-256-Color-Lena-Image.png')
-
-# p = input("Enter a large prime p = ")
-# p = int(p)
-flag = 0
-while flag == 0:
-    p = random.randint(5000, 7000)
-    flag = check_prime_number(p)
-
-print("p = ", p)
-
-# primitive_list = find_primitive_root(p)
-# print(primitive_list)
-# print("len = ", len(primitive_list))
-
-# i = random.randint(1, len(primitive_list) - 1)
-# e1 = primitive_list[i]
-e1 = find_primitive_root(p)
-print("e1 = ", e1)
-
-d = random.randint(1, p - 1)
-print("d = ", d)
-e2 = (e1 ** d) % p
-print("e2 = ", e2)
-# ==> Public key (e1, e2, p)
-# ==> Private key d
+class Elgamal:
+    def load_image(self, link):
+        # Load image
+        # img = cv.imread('8-bit-256-x-256-Color-Lena-Image.png')
+        img = cv.imread(link)
+        return img
 
 
-# Alice send message M to Bob
-encrypt = [[] for x in range(256)]
-r = random.randint(1, p - 2)
-C1 = (e1 ** r) % p
-for i in range(256):
-    for j in range(256):
-        RGB = array.array('i', [0, 0, 0])
-        P = img[i, j]
-        C2 = ((e2 ** r) * P) % p
-        img_bin0 = int(C2[0])
-        img_bin1 = int(C2[1])
-        img_bin2 = int(C2[2])
-        RGB[0] = img_bin0
-        RGB[1] = img_bin1
-        RGB[2] = img_bin2
-        encrypt[i].append(RGB)
-encrypt = numpy.array(encrypt)
-# print(encrypt.shape)
+    def random_key(self):
+        # p = input("Enter a large prime p = ")
+        # p = int(p)
+        flag = 0
+        while flag == 0:
+            p = random.randint(5000, 7000)
+            flag = check_prime_number(p)
+        return p
 
-# Decryption
-decrypt = [[] for x in range(0, 256)]
-C1 = int(C1)
-d = int(p - 1 - d)
-for i in range(0, 256):
-    for j in range(0, 256):
-        tmp = []
-        C2 = encrypt[i, j]
-        P = (C2 * (C1 ** d)) % p
-        img_bin0 = int(P[2])
-        img_bin1 = int(P[1])
-        img_bin2 = int(P[0])
-        tmp.append(img_bin2)
-        tmp.append(img_bin1)
-        tmp.append(img_bin0)
-        decrypt[i].append(tmp)
-decrypt = numpy.array(decrypt)
-# print(decrypt)
+
+    def key_gen(p):
+        e1 = find_primitive_root(p)
+        d = random.randint(1, p - 1)
+        e2 = (e1 ** d) % p
+        return e1,e2,d
+        # ==> Public key (e1, e2, p)
+        # ==> Private key d
+
+
+    # Alice send message M to Bob
+    def encryption(self,img,p,e1,e2):
+        encrypt = [[] for x in range(256)]
+        r = random.randint(1, p - 2)
+        C1 = (e1 ** r) % p
+        for i in range(256):
+            for j in range(256):
+                RGB = array.array('i', [0, 0, 0])
+                P = img[i, j]
+                C2 = ((e2 ** r) * P) % p
+                img_bin0 = int(C2[0])
+                img_bin1 = int(C2[1])
+                img_bin2 = int(C2[2])
+                RGB[0] = img_bin0
+                RGB[1] = img_bin1
+                RGB[2] = img_bin2
+                encrypt[i].append(RGB)
+        encrypt = numpy.array(encrypt)
+        cv.imwrite("encrypt.png", encrypt)
+        # print(encrypt.shape)
+
+
+    # Decryption
+    def decryption(encrypt,C1,p,d):
+        decrypt = [[] for x in range(0, 256)]
+        C1 = int(C1)
+        d = int(p - 1 - d)
+        for i in range(0, 256):
+            for j in range(0, 256):
+                tmp = []
+                C2 = encrypt[i, j]
+                P = (C2 * (C1 ** d)) % p
+                img_bin0 = int(P[2])
+                img_bin1 = int(P[1])
+                img_bin2 = int(P[0])
+                tmp.append(img_bin2)
+                tmp.append(img_bin1)
+                tmp.append(img_bin0)
+                decrypt[i].append(tmp)
+        decrypt = numpy.array(decrypt)
+        cv.imwrite("decrypt.png", decrypt)
+        # print(decrypt)
 
 # plt.savefig("a.png",encrypt ,dpi='figure')
 # plt.subplot(121), plt.imshow(encrypt), plt.title('Encryption')
 # plt.xticks([]), plt.yticks([])
 # plt.subplot(122), plt.imshow(decrypt), plt.title('Decryption')
 # plt.xticks([]), plt.yticks([])
-cv.imwrite("encrypt.png", encrypt)
-cv.imwrite("decrypt.png", decrypt)
-plt.show()
-
-print('loading image successfully!')
+# cv.imwrite("encrypt.png", encrypt)
+# cv.imwrite("decrypt.png", decrypt)
+# plt.show()
+#
+# print('loading image successfully!')
